@@ -29,7 +29,7 @@ cascade:
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: "zh-cn"
+defaultContentLanguage: zh-cn
 hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
