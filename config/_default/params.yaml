@@ -20,8 +20,9 @@ marketing:
     org_name: ''
     description: '顿玄的博客'
   analytics:
-    google_analytics: ''
-    baidu_tongji: ''
+    google_analytics: 'G-98ELQLG275'
+    microsoft_clarity: 'h03ochyksg'
+    baidu_tongji: 'bb7272f7f9bc6a034eacf48ee04d15d4'
   verification:
     google: ''
     baidu: ''
