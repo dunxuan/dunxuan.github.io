@@ -1,6 +1,6 @@
 module github.com/wowchemy/hugo-blog-theme
 
-go 1.15
+go 1.20
 
 require (
 	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify main // indirect
