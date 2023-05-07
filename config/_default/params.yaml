@@ -41,7 +41,7 @@ header:
 
 footer:
   copyright:
-    notice: '© 2022 - {year} 顿玄. This work is licensed under {license}'
+    notice: '© 2022 - {year} 顿玄. 本网站遵循 {license} 协议'
     license:
       enable: true
       allow_derivatives: true
@@ -51,8 +51,8 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '2023/01/01'
+  time_format: '00:00'
 
 # Site features
 
