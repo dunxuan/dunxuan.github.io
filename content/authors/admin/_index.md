@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 顿玄（Dunxuan）
+title: 顿玄
 
 # Is this the primary user of the site?
 superuser: true
