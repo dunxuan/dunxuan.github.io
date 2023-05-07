@@ -24,7 +24,6 @@ cascade:
     header:
       navbar:
         enable: true
-    show_related: false
     commentable: true
 
 
