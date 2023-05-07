@@ -9,8 +9,8 @@ headless: true
 weight: 10
 
 author: admin
-design:
-  css_class: fullscreen
+# design:
+#   css_class: fullscreen
 ---
 
 欢迎来到青山石板路，这里是顿玄的博客~
