@@ -71,17 +71,12 @@ features:
     gravatar: true
     shape: circle
   comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
+    provider: 'giscus'
     giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+      repo: 'dunxuan/dunxuan.github.io'
+      repo_id: 'R_kgDOJfHFUg'
+      category: 'Announcements'
+      category_id: 'DIC_kwDOJfHFUs4CWUkT'
   search:
     provider: wowchemy
     algolia:

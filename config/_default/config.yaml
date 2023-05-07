@@ -24,6 +24,9 @@ cascade:
     header:
       navbar:
         enable: true
+    show_related: true
+    commentable: true
+
 
 ############################
 ## LANGUAGE
