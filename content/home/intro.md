@@ -11,7 +11,7 @@ weight: 10
 author: admin
 design:
   background:
-    image: https://t.mwm.moe/ycy
+    image: url('https://t.mwm.moe/ycy')
   css_class: fullscreen
 ---
 
