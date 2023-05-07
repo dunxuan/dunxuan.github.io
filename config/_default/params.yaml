@@ -52,8 +52,8 @@ footer:
 # Localization
 
 locale:
-  date_format: '2023/01/01'
-  time_format: '00:00'
+  date_format: '2006/01/02'
+  time_format: '15:04'
 
 # Site features
 
