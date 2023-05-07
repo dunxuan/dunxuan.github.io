@@ -43,9 +43,9 @@ footer:
     notice: '© 2022 - {year} 顿玄. This work is licensed under {license}'
     license:
       enable: true
-      allow_derivatives: false
+      allow_derivatives: true
       share_alike: true
-      allow_commercial: false
+      allow_commercial: true
 
 # Localization
 
