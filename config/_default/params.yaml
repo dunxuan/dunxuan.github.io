@@ -16,8 +16,6 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: ''
     description: '顿玄的博客'
   analytics:
     google_analytics: 'G-98ELQLG275'
@@ -106,4 +104,4 @@ extensions:
     branch: main
     local_backend: false
   academicons:
-    enable: false
+    enable: true
