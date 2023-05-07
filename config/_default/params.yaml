@@ -94,6 +94,11 @@ features:
     provider: ''
     api_key: ''
     zoom: 15
+  feedback:
+    responses:
+      positive: '好耶!✌ [有什么想分享的想法吗？](https://github.com/dunxuan/dunxuan.github.io/issues/new)'
+      negative: '😰😰😰 [有什么想分享的想法吗？](https://github.com/dunxuan/dunxuan.github.io/issues/new).'
+
 
 extensions:
   cms:
