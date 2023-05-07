@@ -18,7 +18,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: bio写在这里
+bio: 欢迎来到顿玄的博客——青山石板路~
 
 interests:
 - 机器学习
@@ -56,4 +56,4 @@ social:
 email: "dunxuan@dunxuan.xyz"
 ---
 
-我的兴趣方向在机器学习和计算机科学方面，目前仍在学习各个方面的技术和原理。
+我的兴趣方向是机器学习和计算机科学，目前在学习各种各样的知识。

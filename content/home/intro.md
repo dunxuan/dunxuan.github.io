@@ -9,15 +9,10 @@ headless: true
 weight: 10
 
 author: admin
-#design:
-#  background:
-#    color: '#090a0b'
-#    text_color_light: true
-#    video:
-#      path:  # enter filename of a video in /assets/media
-#  css_class: fullscreen
+design:
+  background:
+    image: https://t.mwm.moe/ycy
+  css_class: fullscreen
 ---
 
-🐈 Hey! I'm **Alice**, a data scientist at Google.
-
-Check out my [CV](/about/) and blog posts below 🌈
+欢迎来到青山石板路，这里是顿玄的博客~
