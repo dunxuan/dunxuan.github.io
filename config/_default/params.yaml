@@ -47,6 +47,8 @@ footer:
       allow_derivatives: true
       share_alike: true
       allow_commercial: true
+  show_related: true
+
 
 # Localization
 
@@ -96,8 +98,8 @@ features:
     zoom: 15
   feedback:
     responses:
-      positive: '好耶!✌ [有什么想分享的想法吗？](https://github.com/dunxuan/dunxuan.github.io/issues/new)'
-      negative: '😰😰😰 [有什么想分享的想法吗？](https://github.com/dunxuan/dunxuan.github.io/issues/new).'
+      positive: '好耶!✌ [那么，有什么想分享的想法吗？](https://github.com/dunxuan/dunxuan.github.io/issues/new)'
+      negative: '😰😰😰 [请问，有什么想分享的想法吗？](https://github.com/dunxuan/dunxuan.github.io/issues/new).'
 
 
 extensions:
