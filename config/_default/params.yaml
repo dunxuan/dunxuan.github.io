@@ -98,7 +98,7 @@ features:
   feedback:
     responses:
       positive: '好耶!✌ [那么，有什么想分享的想法吗？](https://github.com/dunxuan/dunxuan.github.io/issues/new)'
-      negative: '😰😰😰 [请问，有什么想分享的想法吗？](https://github.com/dunxuan/dunxuan.github.io/issues/new).'
+      negative: '😰😰😰 [请问，有什么能改进的地方吗？](https://github.com/dunxuan/dunxuan.github.io/issues/new).'
 
 
 extensions:
