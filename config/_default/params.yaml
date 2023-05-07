@@ -39,7 +39,7 @@ header:
 
 footer:
   copyright:
-    notice: '© 2022 - {year} 顿玄. 本网站遵循 {license} 协议'
+    notice: '© 2022 - {year} 顿玄。 本网站遵循 {license} 协议'
     license:
       enable: true
       allow_derivatives: true
