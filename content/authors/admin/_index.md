@@ -4,7 +4,12 @@ role: 青山掌门
 avatar_filename: avatar.png
 bio: 欢迎来到顿玄的博客——青山石板路~
 interests:
-  - 机器学习，计算机科学与技术，CSGO，僵尸逃跑，Minecraft，二次元
+  - 机器学习
+  - 计算机科学与技术
+  - CSGO
+  - 僵尸逃跑
+  - Minecraft
+  - 二次元
 social:
   - icon: envelope
     icon_pack: fas
