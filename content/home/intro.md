@@ -13,4 +13,4 @@ author: admin
 #   css_class: fullscreen
 ---
 
-欢迎来到青山石板路，这里是顿玄的博客~
+欢迎来到顿玄的博客~

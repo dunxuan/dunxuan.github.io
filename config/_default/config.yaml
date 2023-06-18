@@ -33,7 +33,7 @@ cascade:
 
 defaultContentLanguage: zh
 hasCJKLanguage: true
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 removePathAccents: true
 
 ############################

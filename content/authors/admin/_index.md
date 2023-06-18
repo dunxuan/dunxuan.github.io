@@ -2,7 +2,7 @@
 title: 顿玄
 role: 青山掌门
 avatar_filename: avatar.png
-bio: 欢迎来到顿玄的博客——青山石板路~
+bio: 欢迎来到顿玄的博客哦~
 interests:
   - 机器学习
   - 计算机科学与技术
