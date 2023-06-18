@@ -26,3 +26,4 @@ superuser: true
 status:
   ? icon
 ---
+什么都会发一点
