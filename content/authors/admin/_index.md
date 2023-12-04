@@ -36,6 +36,7 @@ profiles:
   - icon: github
     url: https://github.com/dunxuan
   - icon: bilibili
+    icon_pack: fab
     url: https://space.bilibili.com/110511838
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
   - icon: rss
