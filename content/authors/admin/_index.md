@@ -44,5 +44,3 @@ profiles:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
-看的尽兴不？🤗
