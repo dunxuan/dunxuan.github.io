@@ -20,9 +20,3 @@ main:
   - name: 关于
     url: about/
     weight: 20
-  - name: Topics
-    url: tags/
-    weight: 20
-  - name: Uses
-    url: uses/
-    weight: 30
