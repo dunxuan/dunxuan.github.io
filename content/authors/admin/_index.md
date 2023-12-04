@@ -35,8 +35,8 @@ profiles:
     label: E-mail Me
   - icon: github
     url: https://github.com/dunxuan
-  - icon: bilibili
-    url: https://space.bilibili.com/110511838
+  # - icon: bilibili
+  #   url: https://space.bilibili.com/110511838
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
   - icon: rss
     url: ./post/index.xml
