@@ -15,16 +15,18 @@ marketing:
     local_business_type: ''
     org_name: ''
     description: 'A highly-customizable Hugo blog theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    # twitter: 'GetResearchDev'
   analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
-  verification:
-    google: ''
-    baidu: ''
+    google_analytics: 'G-98ELQLG275'
+    google_tag_manager: 'G-98ELQLG275'
+    microsoft_clarity: 'h03ochyksg'
+    baidu_tongji: 'bb7272f7f9bc6a034eacf48ee04d15d4'
+    # plausible: ''
+    # fathom: ''
+    # pirsch: ''
+  # verification:
+  #   google: ''
+  #   baidu: ''
 
 # Site header
 header:
@@ -36,7 +38,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© 2022 - {year} 顿玄。 本网站遵循 {license} 协议'
     license:
       enable: true
       allow_derivatives: false
@@ -45,8 +47,8 @@ footer:
 
 # Localization
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '2006-01-02'
+  time_format: '15:04'
 
 # Site features
 features:
@@ -58,6 +60,16 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/dunxuan/dunxuan.github.io'
     content_dir: content
     branch: main
+  comment:
+    provider: 'giscus'
+    giscus:
+      repo: 'dunxuan/dunxuan.github.io'
+      repo_id: 'R_kgDOK1fEcg'
+      category: 'Announcements'
+      category_id: 'DIC_kwDOK1fEcs4Cbe0U'
+      theme: preferred_color_scheme
+      language_code: zh-CN
+      mapping: pathname
