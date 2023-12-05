@@ -10,7 +10,7 @@ summary: 解决MongoDB4在Ubuntu22不可用的问题
 sudo apt update
 ```
 
-复制以下内容以直接使用：
+复制以下全部命令以直接起飞：
 ```shell
 echo "deb http://security.ubuntu.com/ubuntu focal-security main" | sudo tee /etc/apt/sources.list.d/focal-security.list && \
 sudo apt update && \
