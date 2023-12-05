@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "b2aca951652791a7",
+        "id": "ba3dc6373b98a2bd",
         "type": "tabs",
         "children": [
           {
-            "id": "3a3a84f48cae870a",
+            "id": "0b04d03b1419652a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/post/MongoDB 4 安装到 Ubuntu 22/index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -92,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/post/MongoDB 4 安装到 Ubuntu 22/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/post/MongoDB 4 安装到 Ubuntu 22/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/post/MongoDB 4 安装到 Ubuntu 22/index.md"
+              }
             }
           }
         ]
@@ -138,8 +146,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3a3a84f48cae870a",
+  "active": "0b04d03b1419652a",
   "lastOpenFiles": [
+    "LICENSE.md",
     "content/post/MongoDB 4 安装到 Ubuntu 22/index.md",
     "content/authors/admin/_index.md",
     "content/post/proxy 代理命令格式/index.md",
@@ -168,7 +177,6 @@
     "content/about",
     "2023-10-24.md",
     "content/_index.md",
-    "LICENSE.md",
     "content/post/second-brain/index.md",
     "content/post/teach-courses/featured.jpg",
     "content/post/teach-courses/index.md",
