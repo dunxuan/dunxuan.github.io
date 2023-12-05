@@ -15,7 +15,7 @@
               "state": {
                 "file": "content/post/MongoDB 4 安装到 Ubuntu 22/index.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
