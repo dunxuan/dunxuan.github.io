@@ -1,5 +1,5 @@
 ---
-title: LFW-VOC-Label  LFW数据集标注为VOC格式
+title: LFW数据集的VOC标注
 date: 2022-07-19T16:34:00Z
 ---
 
