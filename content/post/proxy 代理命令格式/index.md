@@ -1,12 +1,6 @@
 ---
 title: proxy 代理命令格式
 date: 2023-04-09T12:20:00.000Z
-draft: false
-featured: false
-image:
-    filename: featured
-    focal_point: Smart
-    preview_only: false
 ---
 
 注：本教程不可以直接复制粘贴，只是命令格式的速记，请按照**实际情况**使用
@@ -27,10 +21,6 @@ export http_proxy/https_proxy/socket_proxy/HTTP_PROXY/HTTPS_PROXY='$proxy_url'
 
 ```shell
 git config --global http.proxy $proxy_url
-
-```
-
-```shell
 git config --global https.proxy $proxy_url
 ```
 
@@ -44,9 +34,5 @@ pip config set global.proxy $proxy_url
 
 ```shell
 conda config --set proxy_servers.http $proxy_url
-
-```
-
-```shell
 conda config --set proxy_servers.https $proxy_url
 ```

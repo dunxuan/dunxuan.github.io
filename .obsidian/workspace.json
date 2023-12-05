@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "953f227991fcd3ad",
+        "id": "81ac0d953ce2cbd7",
         "type": "tabs",
         "children": [
           {
-            "id": "221096cadc9faa29",
+            "id": "73be7601240be40a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/debian报错及修复方法/index.md",
+                "file": "content/post/proxy 代理命令格式/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/debian报错及修复方法/index.md",
+                "file": "content/post/proxy 代理命令格式/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/debian报错及修复方法/index.md",
+                "file": "content/post/proxy 代理命令格式/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/debian报错及修复方法/index.md"
+                "file": "content/post/proxy 代理命令格式/index.md"
               }
             }
           }
@@ -146,18 +146,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "221096cadc9faa29",
+  "active": "73be7601240be40a",
   "lastOpenFiles": [
-    "content/post/data-visualization/index.md",
+    "content/post/project-management/index.md",
+    "content/post/project-management/featured.jpg",
+    "content/post/proxy 代理命令格式/index.md",
+    "content/post/c-c-中使用-按位与运算-优化-求余运算/c-c-中使用-按位与运算-优化-求余运算.png",
     "content/post/debian报错及修复方法/index.md",
+    "content/post/data-visualization/index.md",
     "content/post/data-visualization/featured.jpg",
     "content/post/get-started/index.md",
     "content/post/get-started/featured.jpg",
     "content/post/debian报错及修复方法",
-    "content/post/conda、pip、git-代理命令/index.md",
-    "content/post/conda、pip、git-代理命令",
+    "content/post/proxy 代理命令格式",
     "content/post/c-c-中使用-按位与运算-优化-求余运算/index.md",
-    "content/post/c-c-中使用-按位与运算-优化-求余运算/c-c-中使用-按位与运算-优化-求余运算.png",
     "content/post/c-c-中使用-按位与运算-优化-求余运算",
     "content/post/lfw-voc-label-lfw数据集标注为voc格式/lfw-voc-label-lfw数据集标注为voc格式.png",
     "content/post/lfw-voc-label-lfw数据集标注为voc格式/index.md",
@@ -169,14 +171,12 @@
     "content/post/_index.md",
     "LICENSE.md",
     "content/post/second-brain/index.md",
-    "content/post/project-management/index.md",
     "content/post/teach-courses/featured.jpg",
     "content/post/teach-courses/index.md",
     "content/post/teach-courses/ambient-piano.mp3",
     "content/post/teach-courses",
     "content/post/second-brain/featured.jpg",
     "content/post/second-brain",
-    "content/post/project-management/featured.jpg",
     "content/post/project-management",
     "content/post/get-started",
     "content/teach-courses/index.md",
