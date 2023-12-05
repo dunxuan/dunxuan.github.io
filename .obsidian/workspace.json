@@ -118,7 +118,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/admin/index.md"
+              }
             }
           }
         ]
