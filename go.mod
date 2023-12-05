@@ -1,8 +1,12 @@
 module github.com/HugoBlox/hugo-blox-builder/starters/blog
 
+<<<<<<< HEAD
 go 1.21
+=======
+go 1.21 
+>>>>>>> 1b44a94f2eb822c8bed4fd8ff6735fd75b03e1f4
 
 require (
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231125204555-f431a4a2c705
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.1.2-0.20231202223048-768ab131c5c2
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify main	
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind main
 )

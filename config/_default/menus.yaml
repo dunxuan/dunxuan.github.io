@@ -17,6 +17,3 @@ main:
   - name: 主页
     url: /
     weight: 10
-  - name: 关于
-    url: about/
-    weight: 20

@@ -16,7 +16,7 @@ cascade:
       path: /post/**
       kind: page
     pager: true
-    editable: true
+    editable: false
     reading_time: true
     commentable: true
     show_related: true
