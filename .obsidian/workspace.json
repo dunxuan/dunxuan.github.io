@@ -11,8 +11,12 @@
             "id": "221096cadc9faa29",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/post/debian报错及修复方法/index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/post/debian报错及修复方法/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/post/debian报错及修复方法/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/post/debian报错及修复方法/index.md"
+              }
             }
           }
         ]
@@ -138,13 +146,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "db240e24571ef77d",
+  "active": "221096cadc9faa29",
   "lastOpenFiles": [
+    "content/post/data-visualization/index.md",
+    "content/post/debian报错及修复方法/index.md",
+    "content/post/data-visualization/featured.jpg",
+    "content/post/get-started/index.md",
+    "content/post/get-started/featured.jpg",
+    "content/post/debian报错及修复方法",
+    "content/post/conda、pip、git-代理命令/index.md",
+    "content/post/conda、pip、git-代理命令",
+    "content/post/c-c-中使用-按位与运算-优化-求余运算/index.md",
+    "content/post/c-c-中使用-按位与运算-优化-求余运算/c-c-中使用-按位与运算-优化-求余运算.png",
+    "content/post/c-c-中使用-按位与运算-优化-求余运算",
+    "content/post/lfw-voc-label-lfw数据集标注为voc格式/lfw-voc-label-lfw数据集标注为voc格式.png",
+    "content/post/lfw-voc-label-lfw数据集标注为voc格式/index.md",
+    "content/post/lfw-voc-label-lfw数据集标注为voc格式",
     "content/about",
     "2023-12-05.md",
     "2023-10-24.md",
-    "content/post/get-started/index.md",
-    "content/post/get-started/featured.jpg",
     "content/_index.md",
     "content/post/_index.md",
     "LICENSE.md",
@@ -159,23 +179,14 @@
     "content/post/project-management/featured.jpg",
     "content/post/project-management",
     "content/post/get-started",
-    "content/post/data-visualization/results.csv",
-    "content/post/data-visualization/line-chart.json",
-    "content/post/data-visualization/index.md",
-    "content/post/data-visualization/featured.jpg",
-    "content/post/data-visualization",
     "content/teach-courses/index.md",
     "content/teach-courses/featured.jpg",
-    "content/teach-courses/ambient-piano.mp3",
-    "content/teach-courses",
     "content/second-brain/index.md",
     "content/second-brain/featured.jpg",
     "content/project-management/index.md",
     "content/project-management/featured.jpg",
-    "content/get-started/featured.jpg",
     "content/get-started/index.md",
     "content/data-visualization/index.md",
-    "content/data-visualization/featured.jpg",
     "content/post/_index 1.md",
     "content/admin/index.md",
     "content/authors/admin/_index.md"
