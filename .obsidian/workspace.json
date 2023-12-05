@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/proxy 代理命令格式/index.md",
+                "file": "content/post/c-c-中使用-按位与运算-优化-求余运算/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/proxy 代理命令格式/index.md",
+                "file": "content/post/c-c-中使用-按位与运算-优化-求余运算/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/proxy 代理命令格式/index.md",
+                "file": "content/post/c-c-中使用-按位与运算-优化-求余运算/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/proxy 代理命令格式/index.md"
+                "file": "content/post/c-c-中使用-按位与运算-优化-求余运算/index.md"
               }
             }
           }
@@ -148,27 +148,27 @@
   },
   "active": "73be7601240be40a",
   "lastOpenFiles": [
+    "content/post/debian报错及修复方法/index.md",
+    "content/post/lfw-voc-label-lfw数据集标注为voc格式/index.md",
+    "content/post/lfw-voc-label-lfw数据集标注为voc格式/featured.png",
+    "content/post/proxy 代理命令格式/index.md",
+    "content/post/_index.md",
+    "content/post/data-visualization/index.md",
+    "content/post/c-c-中使用-按位与运算-优化-求余运算/index.md",
     "content/post/project-management/index.md",
     "content/post/project-management/featured.jpg",
-    "content/post/proxy 代理命令格式/index.md",
-    "content/post/c-c-中使用-按位与运算-优化-求余运算/c-c-中使用-按位与运算-优化-求余运算.png",
-    "content/post/debian报错及修复方法/index.md",
-    "content/post/data-visualization/index.md",
+    "content/post/c-c-中使用-按位与运算-优化-求余运算/featured.png",
     "content/post/data-visualization/featured.jpg",
     "content/post/get-started/index.md",
     "content/post/get-started/featured.jpg",
     "content/post/debian报错及修复方法",
     "content/post/proxy 代理命令格式",
-    "content/post/c-c-中使用-按位与运算-优化-求余运算/index.md",
     "content/post/c-c-中使用-按位与运算-优化-求余运算",
-    "content/post/lfw-voc-label-lfw数据集标注为voc格式/lfw-voc-label-lfw数据集标注为voc格式.png",
-    "content/post/lfw-voc-label-lfw数据集标注为voc格式/index.md",
     "content/post/lfw-voc-label-lfw数据集标注为voc格式",
     "content/about",
     "2023-12-05.md",
     "2023-10-24.md",
     "content/_index.md",
-    "content/post/_index.md",
     "LICENSE.md",
     "content/post/second-brain/index.md",
     "content/post/teach-courses/featured.jpg",

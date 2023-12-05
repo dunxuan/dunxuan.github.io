@@ -1,12 +1,6 @@
 ---
 title: LFW-VOC-Label  LFW数据集标注为VOC格式
 date: 2022-07-19T16:34:00Z
-draft: false
-featured: false
-image:
-  filename: lfw-voc-label-lfw数据集标注为voc格式.png
-  focal_point: Smart
-  preview_only: false
 ---
 
 LFW 数据集标注后的 VOC 格式。一张图片只标注了一张人脸，人脸的范围中包含额头、耳朵等裸露的头部皮肤。
