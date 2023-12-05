@@ -11,8 +11,12 @@
             "id": "9aa0ee8bd0d65231",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/post/proxy 代理命令格式/index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/post/proxy 代理命令格式/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/post/proxy 代理命令格式/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/post/proxy 代理命令格式/index.md"
+              }
             }
           }
         ]
@@ -138,11 +146,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "db240e24571ef77d",
+  "active": "9aa0ee8bd0d65231",
   "lastOpenFiles": [
     "content/post/LFW数据集的VOC标注/index.md",
-    "content/post/lfw-voc-label-lfw数据集标注为voc格式/未命名",
     "content/post/c-c-中使用-按位与运算-优化-求余运算/index.md",
+    "content/post/MongoDB 4 安装到 Ubuntu 22/index.md",
+    "content/post/MongoDB 4 安装到 Ubuntu 22",
+    "content/post/lfw-voc-label-lfw数据集标注为voc格式/未命名",
     "content/post/debian报错及修复方法/index.md",
     "content/post/LFW数据集的VOC标注/featured.png",
     "content/post/proxy 代理命令格式/index.md",
@@ -170,7 +180,6 @@
     "content/post/teach-courses",
     "content/post/second-brain/featured.jpg",
     "content/post/second-brain",
-    "content/post/project-management",
     "content/teach-courses/index.md",
     "content/teach-courses/featured.jpg",
     "content/second-brain/index.md",
