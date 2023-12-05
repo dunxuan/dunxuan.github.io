@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9d42d6dac9e6a9f4",
+        "id": "953f227991fcd3ad",
         "type": "tabs",
         "children": [
           {
-            "id": "e84c8340ad5542e1",
+            "id": "221096cadc9faa29",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -118,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/admin/index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -142,12 +140,43 @@
   },
   "active": "db240e24571ef77d",
   "lastOpenFiles": [
-    "content/authors/admin/avatar.png",
-    "content/authors/admin/_index.md",
-    "content/post/_index.md",
     "2023-12-05.md",
-    "content/post/test",
+    "2023-10-24.md",
+    "content/post/get-started/index.md",
+    "content/post/get-started/featured.jpg",
+    "content/_index.md",
+    "content/post/_index.md",
+    "LICENSE.md",
+    "content/post/second-brain/index.md",
+    "content/post/project-management/index.md",
+    "content/post/teach-courses/featured.jpg",
+    "content/post/teach-courses/index.md",
+    "content/post/teach-courses/ambient-piano.mp3",
+    "content/post/teach-courses",
+    "content/post/second-brain/featured.jpg",
+    "content/post/second-brain",
+    "content/post/project-management/featured.jpg",
+    "content/post/project-management",
+    "content/post/get-started",
+    "content/post/data-visualization/results.csv",
+    "content/post/data-visualization/line-chart.json",
+    "content/post/data-visualization/index.md",
+    "content/post/data-visualization/featured.jpg",
+    "content/post/data-visualization",
+    "content/teach-courses/index.md",
+    "content/teach-courses/featured.jpg",
+    "content/teach-courses/ambient-piano.mp3",
+    "content/teach-courses",
+    "content/second-brain/index.md",
+    "content/second-brain/featured.jpg",
+    "content/project-management/index.md",
+    "content/project-management/featured.jpg",
+    "content/get-started/featured.jpg",
+    "content/get-started/index.md",
+    "content/data-visualization/index.md",
+    "content/data-visualization/featured.jpg",
+    "content/post/_index 1.md",
     "content/admin/index.md",
-    "content/_index.md"
+    "content/authors/admin/_index.md"
   ]
 }
