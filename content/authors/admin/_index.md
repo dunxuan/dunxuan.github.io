@@ -17,7 +17,7 @@ title: 顿玄
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: 青山掌门
 
 # Organizations/Affiliations to show in About widget
 organizations:

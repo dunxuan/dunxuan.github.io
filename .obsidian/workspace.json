@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d6eed5c259b2b1f4",
+        "id": "efbbccb4e39f4b79",
         "type": "tabs",
         "children": [
           {
-            "id": "62fe7551bb9d09bd",
+            "id": "4c81ebb8d32aa13a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "62fe7551bb9d09bd",
+  "active": "4c81ebb8d32aa13a",
   "lastOpenFiles": [
+    "content/authors/admin/_index.md",
     "content/post/proxy 代理命令格式/index.md",
     "未命名.canvas",
     "content/post/1/未命名.md",
@@ -183,7 +184,6 @@
     "content/get-started/index.md",
     "content/data-visualization/index.md",
     "content/post/_index 1.md",
-    "content/admin/index.md",
-    "content/authors/admin/_index.md"
+    "content/admin/index.md"
   ]
 }
