@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "efbbccb4e39f4b79",
+        "id": "0470a4e8b11d666b",
         "type": "tabs",
         "children": [
           {
-            "id": "4c81ebb8d32aa13a",
+            "id": "0b9beefd59390f2b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,7 +138,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4c81ebb8d32aa13a",
+  "active": "0b9beefd59390f2b",
   "lastOpenFiles": [
     "content/authors/admin/_index.md",
     "content/post/proxy 代理命令格式/index.md",
