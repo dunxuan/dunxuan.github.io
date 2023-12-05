@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2b55b76a24e3e9a1",
+        "id": "d6eed5c259b2b1f4",
         "type": "tabs",
         "children": [
           {
-            "id": "3f52c286c454a6c9",
+            "id": "62fe7551bb9d09bd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/proxy 代理命令格式/index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -96,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/proxy 代理命令格式/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/proxy 代理命令格式/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/post/proxy 代理命令格式/index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +138,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3f52c286c454a6c9",
+  "active": "62fe7551bb9d09bd",
   "lastOpenFiles": [
-    "未命名.canvas",
     "content/post/proxy 代理命令格式/index.md",
+    "未命名.canvas",
     "content/post/1/未命名.md",
     "content/post/1",
     "2023-12-05.md",
