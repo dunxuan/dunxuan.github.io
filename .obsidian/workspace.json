@@ -80,35 +80,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "264d07a7599c69e3",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "content/post/MongoDB 4 安装到 Ubuntu 22/index.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "6365f735f457c92f",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "content/post/MongoDB 4 安装到 Ubuntu 22/index.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "2ad4c3246801dc6d",
             "type": "leaf",
             "state": {
@@ -118,22 +89,13 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "2fa380e259bd2aa1",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "content/post/MongoDB 4 安装到 Ubuntu 22/index.md"
-              }
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {

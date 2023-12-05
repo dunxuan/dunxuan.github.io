@@ -5,7 +5,6 @@ summary: 解决MongoDB4在Ubuntu22不可用的问题
 ---
 **文章内容摘自[如何在 4.4 上安装 MongoDB 22.04 |APMB系列](https://www.apmb.co.uk/posts/mongodb-4.4-ubuntu-22-04/)**
 
-
 （可选）首先更新软件包列表：
 ```shell
 sudo apt update
@@ -18,5 +17,6 @@ sudo apt update \
 sudo apt-get install libssl1.1 \
 sudo rm /etc/apt/sources.list.d/focal-security.list
 ```
+
 然后跟着官网文档走：
 [Install MongoDB Community Edition on Ubuntu — MongoDB Manual](https://www.mongodb.com/docs/v4.4/tutorial/install-mongodb-on-ubuntu/)
