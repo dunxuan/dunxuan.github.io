@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4afd6a17edb28c9c",
+        "id": "b6d102225ae52d1c",
         "type": "tabs",
         "children": [
           {
-            "id": "9aa0ee8bd0d65231",
+            "id": "14818f0d193b330d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/proxy 代理命令格式/index.md",
+                "file": "content/post/MongoDB 4 安装到 Ubuntu 22/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/proxy 代理命令格式/index.md",
+                "file": "content/post/MongoDB 4 安装到 Ubuntu 22/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/proxy 代理命令格式/index.md",
+                "file": "content/post/MongoDB 4 安装到 Ubuntu 22/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/proxy 代理命令格式/index.md"
+                "file": "content/post/MongoDB 4 安装到 Ubuntu 22/index.md"
               }
             }
           }
@@ -146,17 +146,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9aa0ee8bd0d65231",
+  "active": "14818f0d193b330d",
   "lastOpenFiles": [
+    "content/post/_index.md",
+    "content/post/debian报错及修复方法/index.md",
     "content/post/LFW数据集的VOC标注/index.md",
-    "content/post/c-c-中使用-按位与运算-优化-求余运算/index.md",
     "content/post/MongoDB 4 安装到 Ubuntu 22/index.md",
+    "content/post/proxy 代理命令格式/index.md",
+    "content/post/c-c-中使用-按位与运算-优化-求余运算/index.md",
     "content/post/MongoDB 4 安装到 Ubuntu 22",
     "content/post/lfw-voc-label-lfw数据集标注为voc格式/未命名",
-    "content/post/debian报错及修复方法/index.md",
     "content/post/LFW数据集的VOC标注/featured.png",
-    "content/post/proxy 代理命令格式/index.md",
-    "content/post/_index.md",
     "content/post/data-visualization/index.md",
     "content/post/project-management/index.md",
     "content/post/project-management/featured.jpg",
