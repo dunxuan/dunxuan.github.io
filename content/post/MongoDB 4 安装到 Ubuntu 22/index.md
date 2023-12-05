@@ -12,9 +12,9 @@ sudo apt update
 
 复制以下内容以直接使用：
 ```shell
-echo "deb http://security.ubuntu.com/ubuntu focal-security main" | sudo tee /etc/apt/sources.list.d/focal-security.list \
-sudo apt update \
-sudo apt-get install libssl1.1 \
+echo "deb http://security.ubuntu.com/ubuntu focal-security main" | sudo tee /etc/apt/sources.list.d/focal-security.list && \
+sudo apt update && \
+sudo apt-get install libssl1.1 && \
 sudo rm /etc/apt/sources.list.d/focal-security.list
 ```
 
