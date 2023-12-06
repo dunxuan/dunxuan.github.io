@@ -20,9 +20,9 @@ superuser: true
 role: 青山掌门
 
 # Organizations/Affiliations to show in About widget
-organizations:
-  - name: 山东青年政治学院
-    url: https://www.sdyu.edu.cn/
+# organizations:
+#   - name: 山东青年政治学院
+#     url: https://www.sdyu.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 欢迎来到顿玄的博客哦~
@@ -35,8 +35,8 @@ profiles:
     label: E-mail Me
   - icon: github
     url: https://github.com/dunxuan
-  # - icon: bilibili
-  #   url: https://space.bilibili.com/110511838
+  - icon: youtube
+    url: https://space.bilibili.com/110511838
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
   - icon: rss
     url: ./post/index.xml
