@@ -55,7 +55,7 @@ permalinks:
   categories: '/category/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, headers, redirects]
+  home: [HTML, RSS, headers]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
