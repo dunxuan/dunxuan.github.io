@@ -11,8 +11,12 @@
             "id": "3f46d8f5bd71b16f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/post/jdbc-url-参数/index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -92,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/post/jdbc-url-参数/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/post/jdbc-url-参数/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/post/jdbc-url-参数/index.md"
+              }
             }
           }
         ]
@@ -140,6 +148,8 @@
   },
   "active": "3f46d8f5bd71b16f",
   "lastOpenFiles": [
+    "content/post/jdbc-url-参数/index.md",
+    "content/post/jdbc-url-参数",
     "content/post/ubuntu-22-安装-mongodb-4/index.md",
     "content/post/ubuntu-22-安装-mysql5-7/index.md",
     "content/post/proxy 代理命令格式/index.md",
@@ -170,7 +180,6 @@
     "content/post/proxy 代理命令格式",
     "content/post/c中使用-按位与运算-优化-求余运算",
     "content/post/LFW数据集的VOC标注",
-    "content/about",
     "2023-10-24.md",
     "content/_index.md",
     "content/post/second-brain/index.md",
@@ -185,7 +194,6 @@
     "content/project-management/featured.jpg",
     "content/get-started/index.md",
     "content/data-visualization/index.md",
-    "content/post/_index 1.md",
-    "content/admin/index.md"
+    "content/post/_index 1.md"
   ]
 }
