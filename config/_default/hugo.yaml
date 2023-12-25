@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: 青山石板路 - 顿玄的个人博客 # Website name
-baseURL: 'https://dunxuan.xyz/' # Website URL
+baseURL: "https://dunxuan.xyz/" # Website URL
 
 ############################
 ## PAGE OPTIONS
@@ -17,6 +17,8 @@ cascade:
       kind: page
     pager: true
     editable: false
+    hide_date: false
+    show_date_updated: true
     reading_time: true
     commentable: true
     show_related: true
@@ -50,9 +52,9 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  authors: '/author/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
+  authors: "/author/:slug/"
+  tags: "/tag/:slug/"
+  categories: "/category/:slug/"
 disableAliases: true
 outputs:
   home: [HTML, RSS]
@@ -69,6 +71,9 @@ taxonomies:
 markup:
   _merge: deep
   highlight:
+    codeFences: true
+    noHl: false
+    noClasses: false15
     lineNos: false
 related:
   threshold: 80
