@@ -6,5 +6,5 @@
 
 imports:
   # - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
-  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind main
-  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-seo main
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-seo
