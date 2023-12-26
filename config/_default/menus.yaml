@@ -16,4 +16,4 @@
 main:
   - name: 主页
     url: /
-    weight: 10
+    weight: 0
