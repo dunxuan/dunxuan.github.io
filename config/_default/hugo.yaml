@@ -71,9 +71,6 @@ taxonomies:
 markup:
   _merge: deep
   highlight:
-    codeFences: true
-    noHl: false
-    noClasses: false15
     lineNos: false
 related:
   threshold: 80
