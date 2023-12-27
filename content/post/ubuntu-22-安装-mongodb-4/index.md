@@ -1,5 +1,5 @@
 ---
-title: Ubuntu 22 安装到 MongoDB 4
+title: Ubuntu 22 安装 MongoDB 4
 date: 2023-12-05
 summary: 解决MongoDB4在Ubuntu22不可用的问题
 ---
