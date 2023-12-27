@@ -1,7 +1,7 @@
 ---
 title: Debian报错及修复方法
 date: 2022-12-16T01:31:00.000Z
-summary: 只存在于debian的某一个版本
+summary: 只存在于debian11的某一个版本
 ---
 ```shell
 E: The repository 'http://security.debian.org./debian-security

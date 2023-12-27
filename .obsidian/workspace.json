@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "147dac5b153c2161",
+        "id": "1519efb8aa109c21",
         "type": "tabs",
         "children": [
           {
-            "id": "e0e25e4dfb94b9f6",
+            "id": "bca642a0e7669653",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/未命名/index.md",
+                "file": "content/post/LFW数据集的VOC标注/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/未命名/index.md",
+                "file": "content/post/LFW数据集的VOC标注/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/未命名/index.md",
+                "file": "content/post/LFW数据集的VOC标注/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/未命名/index.md"
+                "file": "content/post/LFW数据集的VOC标注/index.md"
               }
             }
           }
@@ -146,15 +146,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e0e25e4dfb94b9f6",
+  "active": "bca642a0e7669653",
   "lastOpenFiles": [
+    "content/post/debian报错及修复方法/index.md",
+    "content/post/jdbc-url-参数/index.md",
+    "content/post/LFW数据集的VOC标注/index.md",
+    "content/post/proxy 代理命令格式/index.md",
+    "content/post/ubuntu-22-安装-mongodb-4/index.md",
+    "content/post/c中使用-按位与运算-优化-求余运算/index.md",
+    "content/post/android-studio-配置-xposed-开发环境/index.md",
     "content/post/未命名/index.md",
     "content/post/未命名",
-    "content/post/jdbc-url-参数/index.md",
     "content/post/jdbc-url-参数",
-    "content/post/ubuntu-22-安装-mongodb-4/index.md",
     "content/post/ubuntu-22-安装-mysql5-7/index.md",
-    "content/post/proxy 代理命令格式/index.md",
     "2023-12-18.md",
     "content/post/ubuntu-22-安装-mysql5-7",
     "content/post/idea-ssh-远程开发报错",
@@ -164,10 +168,7 @@
     "content/post/1/未命名.md",
     "content/post/1",
     "2023-12-05.md",
-    "content/post/c中使用-按位与运算-优化-求余运算/index.md",
     "content/post/_index.md",
-    "content/post/debian报错及修复方法/index.md",
-    "content/post/LFW数据集的VOC标注/index.md",
     "content/post/ubuntu-22-安装-mongodb-4",
     "content/post/lfw-voc-label-lfw数据集标注为voc格式/未命名",
     "content/post/LFW数据集的VOC标注/featured.png",
@@ -193,7 +194,6 @@
     "content/second-brain/featured.jpg",
     "content/project-management/index.md",
     "content/project-management/featured.jpg",
-    "content/get-started/index.md",
-    "content/data-visualization/index.md"
+    "content/get-started/index.md"
   ]
 }
