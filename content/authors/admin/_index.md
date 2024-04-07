@@ -33,9 +33,9 @@ profiles:
   - icon: at-symbol
     url: 'mailto:dunxuan@dunxuan.xyz'
     label: E-mail Me
-  - icon: brands/github
+  - icon: github
     url: https://github.com/dunxuan
-  - icon: brands/youtube
+  - icon: youtube
     url: https://space.bilibili.com/110511838
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
   - icon: rss
