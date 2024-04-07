@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 青山石板路 - 顿玄的个人博客 # Website name
+title: "青山石板路 - 顿玄的个人博客" # Website name
 baseURL: "https://dunxuan.xyz/" # Website URL
 
 ############################
@@ -13,7 +13,7 @@ baseURL: "https://dunxuan.xyz/" # Website URL
 cascade:
   # Blog post options
   - _target:
-      path: /post/**
+      path: /blog/**
       kind: page
     pager: true
     editable: false
@@ -70,8 +70,6 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
-  highlight:
-    lineNos: false
 related:
   threshold: 80
   includeNewer: true
@@ -84,4 +82,6 @@ related:
 security:
   _merge: deep
 sitemap:
+  _merge: deep
+minify:
   _merge: deep
