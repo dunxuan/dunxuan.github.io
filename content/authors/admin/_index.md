@@ -25,7 +25,7 @@ role: 青山掌门
 #     url: https://www.sdyu.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: 欢迎来到顿玄的博客哦~
+bio: 欢迎来到顿玄的博客哦ヾ(≧▽≦*)o
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
