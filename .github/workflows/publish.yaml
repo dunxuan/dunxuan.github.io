@@ -52,7 +52,7 @@ jobs:
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
         hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
     - name: Generate Pagefind search index
-      run: npx pagefind --site "public"
+      uses: CloudCannon/pagefind@main
     - name: Upload artifact
       uses: actions/upload-pages-artifact@main
       with:
