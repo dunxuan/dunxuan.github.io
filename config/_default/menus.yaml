@@ -16,5 +16,5 @@ main:
     url: /
     weight: 10
   - name: 文章
-    url: post/
+    url: blog/
     weight: 20
