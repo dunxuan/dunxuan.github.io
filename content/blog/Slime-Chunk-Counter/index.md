@@ -2,11 +2,9 @@
 title: Slime Chunk Counter
 date: 2024-5-30
 summary: 计算Minecraft指定区域中的史莱姆区块数量
-draft: true
 ---
 
 # Slime Chunk Counter
-
 
 ## 用法
 
