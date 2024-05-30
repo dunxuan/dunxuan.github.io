@@ -4,9 +4,7 @@ date: 2024-05-30
 summary: 计算Minecraft指定区域中的史莱姆区块数量
 ---
 
-# Slime Chunk Counter
-
-## 用法
+# 用法
 
 1. 克隆存储库
 
