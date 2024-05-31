@@ -19,6 +19,7 @@ cd SlimeChunkCounter
 
 ```shell
 conda create -n .conda
+conda activate .conda
 ```
 
 3. 安装依赖包
@@ -31,6 +32,5 @@ pip install 'git+https://github.com/MostAwesomeDude/java-random.git'
 4. 运行
 
 ```shell
-conda activate .conda
 python3 run.py
 ```
