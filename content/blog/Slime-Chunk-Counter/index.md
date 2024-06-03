@@ -25,12 +25,12 @@ conda activate "/path/to/.conda"
 3. 安装依赖包
 
 ```shell
-conda install cudatoolkit=11.8 cudnn numpy pytorch torchvision torchaudio pytorch-cuda=11.8  -c pytorch -c nvidia
+conda install cudatoolkit=11.8 cudnn pytorch torchvision torchaudio pytorch-cuda=11.8  -c pytorch -c nvidia
 pip install 'git+https://github.com/MostAwesomeDude/java-random.git'
 ```
 
 4. 运行
 
 ```shell
-python3 run.py
+.conda/python run.py
 ```
