@@ -8,29 +8,22 @@ summary: 计算Minecraft指定区域中的史莱姆区块数量
 
 # 用法
 
-1. 克隆存储库
+1. Clone repositories
 
 ```shell
 git clone https://github.com/dunxuan/SlimeChunkCounter.git
 cd SlimeChunkCounter
 ```
 
-2. 创建 Conda 环境
+2. Create Conda environment
 
 ```shell
-conda create --prefix .conda python=3.11
-conda activate "/path/to/.conda"
+conda env create -f environment.yml --prefix "./.conda"
 ```
 
-3. 安装依赖包
+3. Run Code
 
 ```shell
-conda install cudatoolkit=11.8 cudnn pytorch torchvision torchaudio pytorch-cuda=11.8  -c pytorch -c nvidia
-pip install 'git+https://github.com/MostAwesomeDude/java-random.git'
-```
-
-4. 运行
-
-```shell
+conda activate ./.conda
 .conda/python run.py
 ```
