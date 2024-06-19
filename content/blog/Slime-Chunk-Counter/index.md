@@ -40,7 +40,7 @@ conda activate ./.conda
 .conda/python run.py
 ```
 
-## Draw a map of a seed
+## 画出单个种子的地图
 
 ```shell
 python get_chunk_map.py
