@@ -18,3 +18,6 @@ main:
   - name: 文章
     url: blog/
     weight: 20
+  - name: Jetbrains激活
+    url: https://jb.dunxuan.xyz/
+    weight: 30
