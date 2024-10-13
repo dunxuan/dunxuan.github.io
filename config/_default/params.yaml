@@ -18,7 +18,7 @@ marketing:
     # twitter: 'GetResearchDev'
   analytics:
     google_analytics: 'G-98ELQLG275'
-    google_tag_manager: 'GTM-5X9C8DCV'
+    # google_tag_manager: 'GTM-5X9C8DCV'
     microsoft_clarity: 'h03ochyksg'
     # baidu_tongji: 'bb7272f7f9bc6a034eacf48ee04d15d4'
     # plausible: ''
