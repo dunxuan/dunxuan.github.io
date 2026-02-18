@@ -3,6 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
+# Website name (set in params.yaml under hugoblox.branding.name)
 title: "青山石板路 - 顿玄的个人博客" # Website name
 baseURL: "https://dunxuan.xyz/" # Website URL
 
@@ -51,18 +52,14 @@ pagination:
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
-permalinks:
-  authors: "/author/:slug/"
-  # tags: "/tag/:slug/"
-  # categories: "/category/:slug/"
+ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 disableAliases: true
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 95
+  quality: 90
   anchor: smart
 timeout: 600000
 taxonomies:

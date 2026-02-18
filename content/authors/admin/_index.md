@@ -9,6 +9,9 @@ title: 顿玄
 # first_name: Shiung Wu
 # last_name: Chien
 
+# Pronouns (optional)
+# pronouns: she/her
+
 # Status emoji
 # status:
 #   icon: ☕️
@@ -31,7 +34,7 @@ bio: 欢迎来到顿玄的博客哦ヾ(≧▽≦*)o
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:dunxuan@dunxuan.xyz'
+    url: "mailto:dunxuan@dunxuan.xyz"
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/dunxuan
