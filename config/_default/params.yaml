@@ -63,7 +63,7 @@ hugoblox:
     font: "sans"
     # Size: 'sm', 'md', 'lg', or 'xl' (affects base font size and scale)
     size: "md"
-  
+
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
   # Spacing and shape tokens
@@ -75,7 +75,7 @@ hugoblox:
     spacing: "comfortable"
     # Avatar shape in author profiles
     avatar_shape: circle # circle | square | rounded
-  
+
   # ────────────────────────────────────────────────────────────────────────────
   # HEADER
   # Site header and navigation bar
@@ -98,7 +98,7 @@ hugoblox:
       enable: false
       text: ""
       url: ""
-  
+
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
   # Site footer
@@ -109,7 +109,7 @@ hugoblox:
     language_switcher: true
     # Custom footer text (HTML supported)
     text: ""
-  
+
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
   # Legal notices and licensing
@@ -118,7 +118,6 @@ hugoblox:
     # Copyright notice - supports {year}, {name}, {license} placeholders
     notice: "© 2022 - {year} {name}。 本网站遵循 {license} 协议"
     license:
-      enable: true
       type: cc # cc | custom
       allow_derivatives: false
       share_alike: true
@@ -150,7 +149,7 @@ hugoblox:
       disallow: []
       note: "Guidance for AI crawlers - customize to match your public content."
       contact: ""
-  
+
   # ────────────────────────────────────────────────────────────────────────────
   # CONTENT
   # Content rendering and behavior
@@ -168,7 +167,7 @@ hugoblox:
     # Academic citations
     citations:
       style: apa # apa | mla | chicago | ieee
-  
+
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH
   # Site search
@@ -179,7 +178,7 @@ hugoblox:
     suggestions: []
     # Quick action shortcuts in search modal
     quick_actions: []
-  
+
   # ────────────────────────────────────────────────────────────────────────────
   # COMMENTS
   # User comments system
@@ -194,7 +193,7 @@ hugoblox:
       category_id: "DIC_kwDOK1fEcs4Cbe0U"
     disqus:
       shortname: ""
-  
+
   # ────────────────────────────────────────────────────────────────────────────
   # ANALYTICS
   # Traffic and behavior analytics
@@ -214,7 +213,7 @@ hugoblox:
       project_id: "h03ochyksg"
     baidu:
       site_id: "bb7272f7f9bc6a034eacf48ee04d15d4"
-  
+
   # ────────────────────────────────────────────────────────────────────────────
   # VERIFICATION
   # Search engine site verification codes
@@ -226,7 +225,7 @@ hugoblox:
     yandex: ""
     pinterest: ""
     naver: ""
-  
+
   # ────────────────────────────────────────────────────────────────────────────
   # REPOSITORY
   # Source code repository for "Edit this page" links
@@ -245,7 +244,7 @@ hugoblox:
     date_format: "2006-01-02" # Go time format
     time_format: "15:04"
     address_format: zh-cn
-  
+
   # ────────────────────────────────────────────────────────────────────────────
   # SECURITY
   # Security headers and policies (requires Netlify integration)
@@ -264,7 +263,7 @@ hugoblox:
   privacy:
     enable: false
     anonymize_analytics: true
-  
+
   # ────────────────────────────────────────────────────────────────────────────
   # DEBUG
   # Development and debugging (hidden in production)
@@ -275,7 +274,7 @@ hugoblox:
       position: bottom-left # top-left | top-right | bottom-left | bottom-right
       opacity: 1.0
     export_logs: true
-  
+
   # ────────────────────────────────────────────────────────────────────────────
   # PREMIUM
   # Premium features and creator program (affiliates)

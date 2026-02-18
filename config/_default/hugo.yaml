@@ -61,6 +61,7 @@ imaging:
   resampleFilter: lanczos
   quality: 90
   anchor: smart
+  hint: picture
 timeout: 600000
 taxonomies:
   # tag: tags
