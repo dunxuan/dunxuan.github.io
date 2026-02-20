@@ -9,11 +9,11 @@ name:
   # pronouns: he/him
 # status:
 #   icon: "☕️"
-role: 青山掌门
+# role: 
 bio: 欢迎来到顿玄的博客哦ヾ(≧▽≦*)o
-affiliations:
-  - name: 山东青年政治学院
-    url: https://www.sdyu.edu.cn/
+# affiliations:
+#   - name: 山东青年政治学院
+#     url: https://www.sdyu.edu.cn/
 links:
   - icon: at-symbol
     url: mailto:dunxuan@dunxuan.xyz

@@ -20,7 +20,7 @@ cascade:
     editable: false
     hide_date: false
     show_date_updated: true
-    reading_time: true
+    reading_time: false
     commentable: true
     show_related: true
     share: false
@@ -45,7 +45,7 @@ removePathAccents: true
 
 build:
   writeStats: true
-enableGitInfo: false
+enableGitInfo: true
 summaryLength: 30
 pagination:
   pagerSize: 10
