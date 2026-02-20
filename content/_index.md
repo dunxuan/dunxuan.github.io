@@ -18,11 +18,13 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: collection
     content:
+      count: 0
       filters:
         folders:
           - blog
-        exclude_featured: true
     design:
+      show_read_time: false
+      show_read_more: false
       spacing:
         padding: ["3rem", 0, "6rem", 0]
 ---

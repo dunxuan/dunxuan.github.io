@@ -16,9 +16,9 @@ main:
   - name: 主页
     url: /
     weight: 10
-  - name: 文章
-    url: blog/
-    weight: 20
+  # - name: 文章
+  #   url: blog/
+  #   weight: 20
   - name: Jetbrains激活
-    url: https://jet.dunxuan.xyz
+    url: https://3.jetbra.in
     weight: 30
