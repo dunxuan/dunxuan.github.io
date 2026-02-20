@@ -6,7 +6,7 @@ name:
   given: Dunxuan
   # family: 
   # pronunciation: 
-  pronouns: he/she
+  # pronouns: he/him
 # status:
 #   icon: "☕️"
 role: 青山掌门
@@ -20,8 +20,10 @@ links:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/dunxuan
-  - icon: brands/youtube
+  - icon: custom/bilibili
     url: https://space.bilibili.com/110511838
+  - icon: custom/tiktok
+    url: https://v.douyin.com/QLy_GWaA9AM/
   # - icon: academicons/cv
   #   url: uploads/resume.pdf
   #   label: Download my resume
