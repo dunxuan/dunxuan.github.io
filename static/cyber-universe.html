@@ -1,246 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stunning Visual Effect</title>
+<head><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Universe</title>
     <style>
-      /* 全局重置 */
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        overflow: hidden; /* 隐藏滚动条 */
-        background-color: #000;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      }
-
-      /* Three.js 画布容器 */
-      #bg-canvas {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1; /* 放在最底层 */
-      }
-
-      /* 前景内容样式 */
-      .content-overlay {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        z-index: 10;
-        pointer-events: none; /* 让鼠标事件穿透到背景 */
-      }
-
-      /* 玻璃拟态卡片 */
-      .glass-card {
-        background: rgba(255, 255, 255, 0.05);
-        backdrop-filter: blur(10px); /* 毛玻璃效果 */
-        -webkit-backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-        border-radius: 20px;
-        padding: 60px;
-        color: #fff;
-        pointer-events: auto; /* 恢复卡片内的点击 */
-        transition:
-          transform 0.3s ease,
-          box-shadow 0.3s ease;
-      }
-
-      .glass-card:hover {
-        transform: scale(1.02);
-        box-shadow: 0 15px 40px 0 rgba(31, 104, 135, 0.4);
-        background: rgba(255, 255, 255, 0.08);
-      }
-
-      h1 {
-        font-size: 3.5rem;
-        font-weight: 700;
-        margin-bottom: 20px;
-        /* 文字渐变色 */
-        background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-      }
-
-      p {
-        font-size: 1.2rem;
-        color: rgba(255, 255, 255, 0.8);
-        margin-bottom: 30px;
-        letter-spacing: 1px;
-      }
-
-      .btn-neon {
-        padding: 15px 30px;
-        border: none;
-        background: linear-gradient(90deg, #8ec5fc, #e0c3fc);
-        color: #000;
-        font-weight: bold;
-        font-size: 1rem;
-        border-radius: 50px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        box-shadow: 0 0 15px rgba(142, 197, 252, 0.5);
-      }
-
-      .btn-neon:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 0 25px rgba(224, 195, 252, 0.8);
-        filter: brightness(1.2);
-      }
+        body { margin: 0; padding: 0; overflow: hidden; background: #000; color: #fff; font-family: 'Courier New', Courier, monospace; }
+        canvas { display: block; width: 100vw; height: 100vh; }
+        #overlay { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; pointer-events: none; user-select: none; }
+        h1 { font-size: 5vw; margin: 0; text-transform: uppercase; letter-spacing: 0.5em; text-shadow: 0 0 20px rgba(0, 255, 255, 0.8); animation: glitch 3s infinite; }
+        p { font-size: 1.2vw; color: #0ff;letter-spacing: 0.2em; opacity: 0.8; margin-top: 10px; }
+        @keyframes glitch {
+            0% { text-shadow: 2px 0 0 #f00, -2px 0 0 #00f; }
+            5% { text-shadow: -2px 0 0 #f00, 2px 0 0 #00f; }
+            10% { text-shadow: 2px 0 0 #f00, -2px 00 #00f; }
+            15% { text-shadow: 0 0 20px rgba(0, 255, 255, 0.8); }
+            100% { text-shadow: 0 0 20px rgba(0, 255, 255, 0.8); }
+        }
     </style>
-  </head>
-  <body>
-    <!-- Three.js 渲染的目标 -->
-    <div id="bg-canvas"></div>
-
-    <!-- 前景内容 -->
-    <div class="content-overlay">
-      <div class="glass-card">
-        <h1>Welcome to Future</h1>
-        <p>移动鼠标，感受粒子宇宙的涟漪</p>
-        <button class="btn-neon" onclick="alert('🚀 你点击了未来！')">
-          开启旅程
-        </button>
-      </div>
-    </div>
-
-    <!-- 引入 Three.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-
+</head>
+<body>
+    <div id="overlay">
+        <h1>Cyber Universe</h1>
+        <p>Entering The Digital Frontier</p>
+    </div><canvas id="canvas"></canvas>
+    
     <script>
-      // 1. 场景、相机、渲染器初始化
-      const scene = new THREE.Scene();
-      // 透视相机 (视角角度, 宽高比, 近裁剪面, 远裁剪面)
-      const camera = new THREE.PerspectiveCamera(
-        75,
-        window.innerWidth / window.innerHeight,
-        0.1,
-        1000,
-      );
-      camera.position.z = 50; // 相机后退，以便看到粒子
+        // High-performance 3D Warp Speed Particle Engine
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        let w = canvas.width = window.innerWidth;let h = canvas.height = window.innerHeight;
+        let particles = [];
+        const mouse = { x: w / 2, y: h / 2 };
 
-      const renderer = new THREE.WebGLRenderer({
-        antialias: true,
-        alpha: true,
-      }); // alpha: true 背景透明
-      renderer.setSize(window.innerWidth, window.innerHeight);
-      renderer.setPixelRatio(window.devicePixelRatio); // 适配高分屏
-      document.getElementById("bg-canvas").appendChild(renderer.domElement);
+        window.addEventListener('resize', () => {
+            w = canvas.width = window.innerWidth;h = canvas.height = window.innerHeight;
+        });
 
-      // 2. 创建粒子系统
-      const particleCount = 5000; // 粒子数量
-      const positions = new Float32Array(particleCount * 3); // x, y, z
-      const colors = new Float32Array(particleCount * 3); // r, g, b
+        window.addEventListener('mousemove', (e) => {
+            mouse.x = e.clientX;
+            mouse.y = e.clientY;
+        });
 
-      // 初始位置和颜色
-      for (let i = 0; i < particleCount * 3; i += 3) {
-        // 随机位置 (在 -50 到 50 之间)
-        positions[i] = (Math.random() - 0.5) * 100; // x
-        positions[i + 1] = (Math.random() - 0.5) * 100; // y
-        positions[i + 2] = (Math.random() - 0.5) * 100; // z
+        class Particle {
+            constructor() {
+                this.reset();
+                this.z = Math.random() * w; // 分散初始深度
+            }
+            reset() {
+                this.x = (Math.random() - 0.5) * w * 2.5;
+                this.y = (Math.random() - 0.5) * h * 2.5;
+                this.z = w;
+                // 赛博朋克色系：青色到蓝紫色过渡
+                this.color = `hsl(${Math.random() * 60 + 180}, 100%,60%)`;
+            }
+            update() {
+                // 基于鼠标水平位置动态改变穿梭速度，增强交互感
+                const speed = 10 + ((mouse.x / w) * 20);
+                this.z -= speed;
+                if (this.z <= 0) this.reset();
+            }
+            draw() {
+                // 3D 坐标到 2D 屏幕的透视投影
+                const fov = 250;
+                const scale = fov / (fov + this.z);
+                const x2d= this.x * scale + w / 2;
+                const y2d = this.y * scale + h / 2;
+                
+                // 计算拖尾
+                const pScale = fov / (fov + this.z + 20);
+                const px2d= this.x * pScale + w / 2;
+                const py2d = this.y * pScale + h / 2;
 
-        // 初始颜色 (蓝紫色调)
-        colors[i] = 0.5 + Math.random() * 0.5; // R
-        colors[i + 1] = 0.5 + Math.random() * 0.5; // G
-        colors[i + 2] = 1.0; // B
-      }
-
-      const geometry = new THREE.BufferGeometry();
-      geometry.setAttribute(
-        "position",
-        new THREE.BufferAttribute(positions, 3),
-      );
-      geometry.setAttribute("color", new THREE.BufferAttribute(colors, 3));
-
-      // 粒子材质
-      const material = new THREE.PointsMaterial({
-        size: 0.8, // 粒子大小
-        vertexColors: true, // 启用顶点颜色
-        transparent: true,
-        opacity: 0.8,
-        blending: THREE.AdditiveBlending, // 混合模式，让粒子重叠时更亮
-      });
-
-      const particles = new THREE.Points(geometry, material);
-      scene.add(particles);
-
-      // 3. 鼠标交互逻辑
-      const mouse = { x: 0, y: 0 };
-      const targetMouse = { x: 0, y: 0 };
-
-      document.addEventListener("mousemove", (e) => {
-        // 将鼠标坐标转换为 -1 到 1 的范围
-        targetMouse.x = (e.clientX / window.innerWidth) * 2 - 1;
-        targetMouse.y = -(e.clientY / window.innerHeight) * 2 + 1;
-      });
-
-      // 4. 动画循环
-      const clock = new THREE.Clock();
-
-      function animate() {
-        requestAnimationFrame(animate);
-
-        const time = clock.getElapsedTime();
-
-        // 平滑跟随鼠标
-        mouse.x += (targetMouse.x - mouse.x) * 0.05;
-        mouse.y += (targetMouse.y - mouse.y) * 0.05;
-
-        // 更新粒子位置
-        const positionsArray = particles.geometry.attributes.position.array;
-
-        for (let i = 0; i < particleCount; i++) {
-          const i3 = i * 3;
-
-          // 获取当前粒子的 x, y
-          const px = positionsArray[i3];
-          const py = positionsArray[i3 + 1];
-
-          // 计算粒子到鼠标的距离 (简化版，非精确3D距离)
-          // 这里将鼠标位置映射到世界坐标 (大致 50 倍)
-          const dx = mouse.x * 40 - px;
-          const dy = mouse.y * 40 - py;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-
-          // 如果粒子在鼠标附近，推开它
-          if (dist < 15) {
-            const force = (15 - dist) / 15;
-            positionsArray[i3] -= dx * force * 0.03;
-            positionsArray[i3 + 1] -= dy * force * 0.03;
-          }
-
-          // 让粒子轻微上下浮动 (波浪效果)
-          positionsArray[i3 + 1] += Math.sin(time + i * 0.1) * 0.01;
+                ctx.beginPath();
+                ctx.moveTo(px2d, py2d);
+                ctx.lineTo(x2d, y2d);
+                ctx.strokeStyle = this.color;
+                ctx.lineWidth = scale * 3;
+                ctx.stroke();
+            }
         }
 
-        particles.geometry.attributes.position.needsUpdate = true;
-
-        // 整体缓慢旋转
-        particles.rotation.y = time * 0.05;
-        particles.rotation.x = time * 0.03;
-
-        renderer.render(scene, camera);
-      }
-
-      animate();
-
-      // 5. 窗口大小调整适配
-      window.addEventListener("resize", () => {
-        camera.aspect = window.innerWidth / window.innerHeight;
-        camera.updateProjectionMatrix();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-      });
+        // 初始化粒子池
+        for (let i = 0; i < 900; i++) particles.push(new Particle());function animate() {
+            // 利用半透明背景色实现平滑的残影拖尾效果
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.25)';
+            ctx.fillRect(0, 0, w, h);
+            
+            particles.forEach(p => {
+                p.update();
+                p.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+        animate();
     </script>
-  </body>
+</body>
 </html>
